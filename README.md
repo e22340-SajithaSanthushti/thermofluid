@@ -19,3 +19,25 @@ thermofluid/
 ├── air_ideal_gas.csv       # Dataset tables
 ├── co2_ideal_gas.csv       
 └── ...
+
+
+==============================================
+    THERMOFLUID PROPERTIES LOOKUP ENGINE      
+==============================================
+Available Tables:
+ 1. Saturated Water   (water_sat_T.csv)
+ 2. Air Ideal Gas      (air_ideal_gas.csv)
+ 3. Nitrogen (N2)      (n2_ideal_gas.csv)
+ ...
+Select a table number (1-10): 2
+Enter target temperature (K): 350
+
+[+] Calculation Complete! Interpolated Properties:
+----------------------------------------------
+  Temperature    : 350.0000
+  h              : 350.4900
+  P_r            : 2.3790
+  u              : 250.0200
+  v_r            : 422.2000
+  s_deg          : 1.8575
+----------------------------------------------
